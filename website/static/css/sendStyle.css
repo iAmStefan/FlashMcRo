@@ -1,0 +1,43 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #3366ff -1%, #ff0000 100%);
+}
+.col-lg-12{
+    text-align: center;
+}
+.emailSending{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #F43D3D;
+    border-radius: 5px;
+}
+.emailSending .title{
+    border-bottom: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+.emailAddress{
+    width: 97%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.emailSending p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.sendEmail{
+    background-color: dodgerblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: black;
+    margin-top: 30px;
+}

@@ -1,0 +1,109 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name=”viewport” content=”width=device-width, initial-scale=1″>
+    <title>FlashMcRo | Forum</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\forumStyle.css' %}">
+    <link rel="shortcut icon" href="{% static 'images\icon.ico' %}" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+       <div class="menu">
+          <ul>
+            <li alt="flash-mc-ro home section" title="flash-mc-ro home section"><a href="{% url 'index' %}">Acasa</a></li>
+            <li class="active" alt="flash-mc-ro forum section" title="flash-mc-ro forum section"><a href="{% url 'forum' %}">Forum</a></li>
+            <li alt="flash-mc-ro shop section" title="flash-mc-ro shop section"><a href="{% url 'magazin' %}">Magazin</a></li>
+            <li alt="flash-mc-ro vote section" title="flash-mc-ro vote section"><a href="{% url 'vot' %}">Voteaza</a></li>
+          </ul>
+          <div class="signup_in">
+              <p class="logareInregistrare"><a href="{% url 'credentials' %}">Sign Up / Log in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <br></br>
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="topics">
+                    <div class="title">Topicuri</div>
+                    <button class="newTopic">Creaza un nou topic</button>
+                </div>
+                <div class="topicList">
+                    <div class="discordTopic">
+                        <div class="title">Discord</div>
+                        <div class="subTopics">
+                            <a href="{% url 'subTopic' 'canale-voce' %}"><p class="channelVoiceTopic">Canale de voce</p></a>
+                            <a href="{% url 'subTopic' 'canale-text' %}"><p class="channelTextTopic">Canale de text</p></a>
+                            <a href="{% url 'subTopic' 'canale-muzica' %}"><p class="channelMusicTopic">Canale de muzica</p></a>
+                        </div>
+                    </div>
+                    <div class="serverTopic">
+                        <div class="title">Propuneri server</div>
+                        <div class="subTopics">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="first">
+                                            <a href="{% url 'subTopic' 'sectiuni-noi' %}"><p class="sectionTopic">Sectiuni noi</p></a>
+                                            <a href="{% url 'subTopic' 'bug-uri' %}"><p class="bugTopic">Bug-uri</p></a>
+                                            <a href="{% url 'subTopic' 'sugestii' %}"><p class="sugestionTopic">Sugestiii</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="second">
+                                            <a href="{% url 'subTopic' 'reclamatii' %}"><p class="reclamationTopic">Reclamatii</p></a>
+                                            <a href="{% url 'subTopic' 'evenimente' %}"><p class="eventTopic">Evenimente</p></a>
+                                            <a href="{% url 'subTopic' 'anunturi' %}"><p class="announcementTopic">Anunturi</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="requestTopic">
+                        <div class="title">Cereri pentru grade</div>
+                        <div class="subTopics">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="first">
+                                            <a href="{% url 'subTopic' 'builder' %}"><p class="builderTopic">{{ grade.builder }}</p></a>
+                                            <a href="{% url 'subTopic' 'scripter' %}"><p class="scripterT1opic">{{ grade.scripter }}</p></a>
+                                            <a href="{% url 'subTopic' 'administrator' %}"><p class="adminTopic">{{ grade.admin }}</p></a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="second">
+                                            <a href="{% url 'subTopic' 'moderator' %}"><p class="modTopic">{{ grade.mod }}</p></a>
+                                            <a href="{% url 'subTopic' 'flyer' %}"><p class="flyerTopic">{{ grade.flyer }}</p></a>
+                                            <a href="{% url 'subTopic' 'vip' %}"><p class="vipTopic">{{ grade.vip }}</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="discord">
+                    <iframe src="https://discordapp.com/widget?id=616206076412690433&theme=dark" width="259" height="400" allowtransparency="true" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <br></br><br></br>
+        <div class="social">
+            <a href="https://www.instagram.com/alexcovrig1332/?hl=ro"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/alex.covrig.9889"><i class="fa fa-facebook-square"></i></a>
+        </div>
+    </footer>
+  </body>
+</html>

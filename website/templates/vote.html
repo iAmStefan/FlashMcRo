@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name=”viewport” content=”width=device-width, initial-scale=1″>
+    <title>FlashMcRo | Voteaza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\voteStyle.css' %}">
+    <link rel="shortcut icon" href="{% static 'images\icon.ico' %}" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+       <div class="menu">
+          <ul>
+            <li alt="flash-mc-ro home section" title="flash-mc-ro home section"><a href="{% url 'index' %}">Acasa</a></li>
+            <li alt="flash-mc-ro forum section" title="flash-mc-ro forum section"><a href="{% url 'forum' %}">Forum</a></li>
+            <li alt="flash-mc-ro shop section" title="flash-mc-ro shop section"><a href="{% url 'magazin' %}">Magazin</a></li>
+            <li class="active" alt="flash-mc-ro vote section" title="flash-mc-ro vote section"><a href="{% url 'vot' %}">Voteaza</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <br></br><br></br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="announce">
+                    <p>Nu uita sa votezi <a href="https://minecraft-mp.com/server/232896/vote/"><span>aici</span></a> si vei primi un bonus!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
