@@ -58,9 +58,7 @@ html,body{
   .logareInregistrare a:hover{
      text-decoration: none;
   }
-  .social{
-    text-align: center;
-  }
+
   .fa-instagram{
     padding: 8px;
     border: 1px solid black;
@@ -88,6 +86,7 @@ html,body{
     padding-top: 10px;
     height: 53px;
     background-color: #808080;
+      text-align: center;
   }
   .col-lg-10{
     text-align: center;
@@ -178,7 +177,11 @@ html,body{
     color: dodgerblue;
   }
   .subTopics a{
-    text-decoration: none;
+      color: dodgerblue;
+      text-decoration: none;
+  }
+  .discordTopic .subTopics{
+      margin-top: 10px;
   }
 
 
