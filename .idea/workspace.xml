@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54071d49-bc00-4577-93b3-5deb1397c324" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashMcRo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlashMcRo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/forumStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/forumStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/indexStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/shopStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/shopStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/voteStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/voteStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/forum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/vote.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/vote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/migrations/0002_auto_20190905_1338.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/migrations/0003_delete_gradesmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/signup-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/signup-in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +40,25 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FlashMcRo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,12 +128,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3f313ce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -142,6 +155,8 @@
       <workItem from="1567684520894" duration="5279000" />
       <workItem from="1567691948629" duration="4759000" />
       <workItem from="1567753821308" duration="1540000" />
+      <workItem from="1567755784660" duration="21974000" />
+      <workItem from="1567854142725" duration="49000" />
     </task>
     <servers />
   </component>

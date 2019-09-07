@@ -13,36 +13,36 @@
         <br></br>
         <div class="row">
             <div class="col-lg-6">
-                <div class="loginForm">
+                <div class="registerForm">
                     <div class="title">Inregistrare</div>
-                    <form action="" method="POST">
+                    <form method="POST">
+
                         <div class="register-group">
                             <p>Nume</p>
-                            {{ register_form.name }}
+                            {{ register_form.first_name }}
 
                             <p>Prenume</p>
-                            {{ register_form.surname }}
+                            {{ register_form.last_name }}
 
                             <p>Numele din Minecraft</p>
-                            {{ register_form.minecraft_user }}
+                            {{ register_form.username }}
 
                             <p>Adresa de e-mail</p>
-                            {{ register_form.email_address }}
+                            {{ register_form.email }}
 
                             <p>Parola</p>
-                            {{ register_form.password }}
+                            {{ register_form.password1 }}
 
                             <p>Confirmarea parolei</p>
-                            {{ register_form.password_confirmation }}
-
-                            {% csrf_token %}
+                            {{ register_form.password2 }}
                         </div>
+                        {% csrf_token %}
                         <button type="submit" class="register">Inregistrare</button>
                     </form>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="registerForm">
+                <div class="loginForm">
                     <div class="title">Autentificare</div>
                     <form action="" method="POST">
                         <div class="login-group">
@@ -58,7 +58,7 @@
                             {% csrf_token %}
                         </div>
                         <button type="submit" class="login">Autentificare</button>
-                        <p class="passwordReset"><a href="{% url 'sendEmail' %}">Ti-ai uitat parola ?</a></p>
+                        <p class="passwordReset"><a href="">Ti-ai uitat parola ?</a></p>
                     </form>
                 </div>
             </div>
