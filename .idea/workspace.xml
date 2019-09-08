@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54071d49-bc00-4577-93b3-5deb1397c324" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/static/css/logoutStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/static/css/signinStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/static/images/indexImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/static/images/shopImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/static/images/voteImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/templates/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/templates/profil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FlashMcRo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlashMcRo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashMcRo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlashMcRo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/credentialStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/credentialStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/forumStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/forumStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/indexStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/resetStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/resetStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/css/sendStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/sendStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/shopStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/shopStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/css/signinStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/signinStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/topicStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/topicStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/css/voteStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/css/voteStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/images/serverImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/forum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/requestTopic.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/requestTopic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/signup-in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/signin.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +190,7 @@
       <workItem from="1567854142725" duration="49000" />
       <workItem from="1567857488750" duration="19390000" />
       <workItem from="1567935312845" duration="944000" />
+      <workItem from="1567936685105" duration="3914000" />
     </task>
     <servers />
   </component>

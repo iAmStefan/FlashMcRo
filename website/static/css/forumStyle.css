@@ -18,7 +18,7 @@ html,body{
   .menu ul li{
     list-style-type: none;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 50px;
     text-align: center;
     position: relative;
@@ -47,8 +47,8 @@ html,body{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     float:left;
-    padding-top: 13px;
-    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
     text-transform: uppercase;
   }
   .inregistrare a{
@@ -62,8 +62,8 @@ html,body{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     float:left;
-    padding-top: 13px;
-    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
     text-transform: uppercase;
   }
   .autentificare a{
@@ -91,8 +91,8 @@ html,body{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     float:left;
-    padding-top: 13px;
-    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
     text-transform: uppercase;
   }
   .fa-instagram{
@@ -121,8 +121,8 @@ html,body{
     border-top: 1px solid black;
     padding-top: 10px;
     height: 53px;
-    background-color: #808080;
-      text-align: center;
+    background-color: #BFBFBF;
+    text-align: center;
   }
   .col-lg-10{
     text-align: center;
