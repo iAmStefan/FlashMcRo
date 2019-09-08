@@ -23,7 +23,7 @@ html,body{
     text-align: center;
     position: relative;
   }
-  .menu ul li  a{
+  .menu ul li a{
     letter-spacing: 2px;
     text-decoration: none;
     color: black;
@@ -43,22 +43,58 @@ html,body{
     color: #0189FB;
   }
 
-  .logareInregistrare{
+  .inregistrare{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     float:left;
     padding-top: 13px;
     padding-left: 20px;
     text-transform: uppercase;
-
   }
-  .logareInregistrare a{
+  .inregistrare a{
      color: black;
   }
-  .logareInregistrare a:hover{
+  .inregistrare a:hover{
      text-decoration: none;
   }
 
+  .autentificare{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    float:left;
+    padding-top: 13px;
+    padding-left: 20px;
+    text-transform: uppercase;
+  }
+  .autentificare a{
+     color: black;
+  }
+  .autentificare a:hover{
+     text-decoration: none;
+  }
+
+  .delogare{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    float:left;
+    padding-top: 13px;
+    padding-left: 20px;
+    text-transform: uppercase;
+  }
+  .delogare a{
+     color: black;
+  }
+  .delogare a:hover{
+     text-decoration: none;
+  }
+  .username{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    float:left;
+    padding-top: 13px;
+    padding-left: 20px;
+    text-transform: uppercase;
+  }
   .fa-instagram{
     padding: 8px;
     border: 1px solid black;

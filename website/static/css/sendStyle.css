@@ -1,7 +1,7 @@
 html, body{
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, #3366ff -1%, #ff0000 100%);
+    background: linear-gradient(to bottom left, #ffcc00 11%, #ff3300 100%);
 }
 .col-lg-12{
     text-align: center;

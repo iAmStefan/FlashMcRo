@@ -20,7 +20,13 @@
             <li alt="flash-mc-ro vote section" title="flash-mc-ro vote section"><a href="{% url 'vot' %}">Voteaza</a></li>
           </ul>
           <div class="signup_in">
-              <p class="logareInregistrare"><a href="{% url 'credentials' %}">Sign Up / Log in</a></p>
+              {% if user.is_authenticated %}
+              <p class="username">{{ user.username }}</p>
+              <p class="delogare"><a href="{% url 'delogare' %}">Delogare</a></p>
+              {% else %}
+              <p class="inregistrare"><a href="{% url 'inregistrare' %}">Inregistrare</a></p>
+              <p class="autentificare"><a href="{% url 'autentificare' %}">Autentificare</a></p>
+              {% endif %}
           </div>
         </div>
       </div>
