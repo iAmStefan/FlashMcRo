@@ -13,31 +13,33 @@
         <br></br><br></br>
         <div class="row">
             <div class="col-lg-12">
-                <div class="registerForm">
-                    <div class="title">Inregistrare</div>
-                    <form method="POST">
-                        {% csrf_token %}
-                        <div class="register-group">
-                            <p>Nume</p>
-                            {{ register_form.first_name }}
+                <div class="registration">
+                    <div class="registerForm">
+                        <div class="title">Inregistrare</div>
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="register-group">
+                                <p>Nume</p>
+                                {{ register_form.first_name }}
 
-                            <p>Prenume</p>
-                            {{ register_form.last_name }}
+                                <p>Prenume</p>
+                                {{ register_form.last_name }}
 
-                            <p>Numele din Minecraft</p>
-                            {{ register_form.username }}
+                                <p>Numele din Minecraft</p>
+                                {{ register_form.username }}
 
-                            <p>Adresa de e-mail</p>
-                            {{ register_form.email }}
+                                <p>Adresa de e-mail</p>
+                                {{ register_form.email }}
 
-                            <p>Parola</p>
-                            {{ register_form.password1 }}
+                                <p>Parola</p>
+                                {{ register_form.password1 }}
 
-                            <p>Confirmarea parolei</p>
-                            {{ register_form.password2 }}
-                        </div>
-                        <button type="submit" class="register">Inregistrare</button>
-                    </form>
+                                <p>Confirmarea parolei</p>
+                                {{ register_form.password2 }}
+                            </div>
+                            <button type="submit" class="register">Inregistrare</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

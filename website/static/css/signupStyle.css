@@ -13,14 +13,13 @@ html, body{
     width: 400px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: #F43D3D;
+    background-color: white;
 }
 .registerForm .title{
     border-bottom: 1px solid black;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
-    color: white;
 }
 .register{
     background-color: dodgerblue;
@@ -39,7 +38,6 @@ html, body{
     font-family: "Roboto", sans-serif;
     float: left;
     margin-left: 5px;
-    color: white;
 }
 .name{
     width: 97%;
