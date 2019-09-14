@@ -10,12 +10,13 @@
 </head>
 <body>
     <div class="container">
-        <br></br><br></br>
+        <br></br><br></br><br></br><br></br>
         <div class="row">
             <div class="col-lg-12">
                 <div class="loggedOut">
                     <p>Ai fost delogat!</p>
-                    <p>Autentifica-te din nou <span><a href="{% url 'autentificare' %}">aici</a></span>.</p>
+                    <p>Poti sa te autentifici din nou <span class="loggingIn"><a href="{% url 'autentificare' %}">aici</a></span>.</p>
+                    <p>Sau poti sa mergi la <span class="mainPage"><a href="{% url 'index' %}">pagina principala</a></span>.</p>
                 </div>
             </div>
         </div>

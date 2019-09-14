@@ -31,64 +31,66 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="topicList">
         <br></br>
-        <div class="row">
-            <div class="col-lg-10">
-                <div class="topics">
-                    <div class="title">Topicuri</div>
-                    <button class="newTopic">Creaza un nou topic</button>
-                </div>
-                <div class="topicList">
-                    <div class="discordTopic">
-                        <div class="title">Discord</div>
-                        <div class="subTopics">
-                            <p class="channelVoiceTopic"><a href="{% url 'subTopic' 'canale-voce' %}">Canale de voce</a></p>
-                            <p class="channelTextTopic"><a href="{% url 'subTopic' 'canale-text' %}">Canale de text</a></p>
-                            <p class="channelMusicTopic"><a href="{% url 'subTopic' 'canale-muzica' %}">Canale de muzica</a></p>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="topics">
+                        <div class="title">Topicuri</div>
+                        <button class="newTopic">Creaza un nou topic</button>
                     </div>
-                    <div class="serverTopic">
-                        <div class="title">Propuneri server</div>
-                        <div class="subTopics">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="first">
-                                            <p class="sectionTopic"><a href="{% url 'subTopic' 'sectiuni-noi' %}">Sectiuni noi</a></p>
-                                            <p class="bugTopic"><a href="{% url 'subTopic' 'bug-uri' %}">Bug-uri</a></p>
-                                            <p class="sugestionTopic"><a href="{% url 'subTopic' 'sugestii' %}">Sugestiii</a></p>
+                    <div class="topicList">
+                        <div class="discordTopic">
+                            <div class="title">Discord</div>
+                            <div class="subTopics">
+                                <p class="channelVoiceTopic"><a href="{% url 'subTopic' 'canale-voce' %}">Canale de voce</a></p>
+                                <p class="channelTextTopic"><a href="{% url 'subTopic' 'canale-text' %}">Canale de text</a></p>
+                                <p class="channelMusicTopic"><a href="{% url 'subTopic' 'canale-muzica' %}">Canale de muzica</a></p>
+                            </div>
+                        </div>
+                        <div class="serverTopic">
+                            <div class="title">Propuneri server</div>
+                            <div class="subTopics">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="first">
+                                                <p class="sectionTopic"><a href="{% url 'subTopic' 'sectiuni-noi' %}">Sectiuni noi</a></p>
+                                                <p class="bugTopic"><a href="{% url 'subTopic' 'bug-uri' %}">Bug-uri</a></p>
+                                                <p class="sugestionTopic"><a href="{% url 'subTopic' 'sugestii' %}">Sugestiii</a></p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="second">
-                                            <p class="reclamationTopic"><a href="{% url 'subTopic' 'reclamatii' %}">Reclamatii</a></p>
-                                            <p class="eventTopic"><a href="{% url 'subTopic' 'evenimente' %}">Evenimente</a></p>
-                                            <p class="announcementTopic"><a href="{% url 'subTopic' 'anunturi' %}">Anunturi</a></p>
+                                        <div class="col-lg-6">
+                                            <div class="second">
+                                                <p class="reclamationTopic"><a href="{% url 'subTopic' 'reclamatii' %}">Reclamatii</a></p>
+                                                <p class="eventTopic"><a href="{% url 'subTopic' 'evenimente' %}">Evenimente</a></p>
+                                                <p class="announcementTopic"><a href="{% url 'subTopic' 'anunturi' %}">Anunturi</a></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="requestTopic">
-                        <div class="title">Cereri pentru grade</div>
-                        <div class="subTopics">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="first">
-                                            <a href="{% url 'subTopic' 'builder' %}"><p class="builderTopic">{{ grade.builder }}</p></a>
-                                            <a href="{% url 'subTopic' 'scripter' %}"><p class="scripterT1opic">{{ grade.scripter }}</p></a>
-                                            <a href="{% url 'subTopic' 'administrator' %}"><p class="adminTopic">{{ grade.admin }}</p></a>
-                                        </div>
+                        <div class="requestTopic">
+                            <div class="title">Cereri pentru grade</div>
+                            <div class="subTopics">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="first">
+                                                <a href="{% url 'subTopic' 'builder' %}"><p class="builderTopic">{{ grade.builder }}</p></a>
+                                                <a href="{% url 'subTopic' 'scripter' %}"><p class="scripterT1opic">{{ grade.scripter }}</p></a>
+                                                <a href="{% url 'subTopic' 'administrator' %}"><p class="adminTopic">{{ grade.admin }}</p></a>
+                                            </div>
 
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="second">
-                                            <a href="{% url 'subTopic' 'moderator' %}"><p class="modTopic">{{ grade.mod }}</p></a>
-                                            <a href="{% url 'subTopic' 'flyer' %}"><p class="flyerTopic">{{ grade.flyer }}</p></a>
-                                            <a href="{% url 'subTopic' 'vip' %}"><p class="vipTopic">{{ grade.vip }}</p></a>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="second">
+                                                <a href="{% url 'subTopic' 'moderator' %}"><p class="modTopic">{{ grade.mod }}</p></a>
+                                                <a href="{% url 'subTopic' 'flyer' %}"><p class="flyerTopic">{{ grade.flyer }}</p></a>
+                                                <a href="{% url 'subTopic' 'vip' %}"><p class="vipTopic">{{ grade.vip }}</p></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -96,15 +98,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="discord">
-                    <iframe src="https://discordapp.com/widget?id=616206076412690433&theme=dark" width="259" height="400" allowtransparency="true" frameborder="0"></iframe>
+                <div class="col-lg-2">
+                    <div class="discord">
+                        <iframe src="https://discordapp.com/widget?id=616206076412690433&theme=dark" width="259" height="400" allowtransparency="true" frameborder="0"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <br></br><br></br>
     <footer>
         <div class="social">
             <a alt="flash-mc-ro instagram" title="flash-mc-ro instagram" href="https://www.instagram.com/alexcovrig1332/?hl=ro"><i class="fa fa-instagram"></i></a>

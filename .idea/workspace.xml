@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="54071d49-bc00-4577-93b3-5deb1397c324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashMcRo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlashMcRo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/forumStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/forumStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/logoutStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/logoutStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/signinStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/signinStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/topicStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/topicStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/requestTopic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/requestTopic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vote.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vote.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +196,7 @@
       <workItem from="1568031660456" duration="1188000" />
       <workItem from="1568388577657" duration="1123000" />
       <workItem from="1568394295094" duration="2517000" />
+      <workItem from="1568451735318" duration="2049000" />
     </task>
     <servers />
   </component>

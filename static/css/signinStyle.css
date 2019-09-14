@@ -8,8 +8,8 @@ html, body{
 }
 .loginForm{
     display: inline-block;
-    height: 278px;
-    width: 398px;
+    height: 240px;
+    width: 400px;
     background-color: white;
     border: 1px solid black;
     border-radius: 3px;
@@ -38,12 +38,11 @@ html, body{
     border-radius: 3px;
     padding: 5px 10px;
     color: black;
-    margin-top: 40px;
-    margin-left: 40px;
-    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 .passwordReset{
-    margin-top: 75px;
+    margin-top: 60px;
     color: dodgerblue;
     float: right;
     margin-right: 10px;
