@@ -13,9 +13,7 @@ SECRET_KEY = ')5@9s=9^go+**2d9ngct-!@y(xbsko0k4o_qzb#j1qacqflp+5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['flash-mcro.herokuapp.com']
-
-
+ALLOWED_HOSTS = ['flash-mcro.herokuapp.com', '127.0.0.1']
 
 # Application definition
 

@@ -9,36 +9,31 @@
     <link rel="shortcut icon" href="{% static 'images\icon.ico' %}" type="image/x-icon">
 </head>
 <body>
-        <div class="container">
-            <br></br><br></br><br></br><br></br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="authentication">
-                        <div class="loginForm">
-                            <div class="title">Autentificare</div>
-                            <div class="decorations">
+    <div class="container">
+        <br></br><br></br><br></br><br></br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="loginForm">
+                    <div class="title">Autentificare</div>
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="login-group">
+                            <p>User name</p>
+                            {{ form.username }}
 
-                            </div>
-                            <form method="POST">
-                                {% csrf_token %}
-                                <div class="login-group">
-                                    <p>User name</p>
-                                    {{ form.username }}
+                            <p>Parola</p>
+                            {{ form.password }}
 
-                                    <p>Parola</p>
-                                    {{ form.password }}
+                            <div class="rememmber_me">{{ login_form.remember_me }}</div>
+                            <p>Tine-ma minte</p>
 
-                                    <div class="rememmber_me">{{ login_form.remember_me }}</div>
-                                    <p>Tine-ma minte</p>
-
-                                </div>
-                                <button type="submit" class="login">Autentificare</button>
-                                <p class="passwordReset"><a href="">Ti-ai uitat parola ?</a></p>
-                            </form>
                         </div>
-                    </div>
+                        <button type="submit" class="login">Autentificare</button>
+                        <p class="passwordReset"><a href="">Ti-ai uitat parola ?</a></p>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
 </body>
 </html>
