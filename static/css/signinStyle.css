@@ -3,6 +3,8 @@ html, body{
     height: 100%;
     background: linear-gradient(to bottom left, #ffcc00 11%, #ff3300 100%);
 }
+
+/* Log in form */
 .col-lg-12{
     text-align: center;
 }

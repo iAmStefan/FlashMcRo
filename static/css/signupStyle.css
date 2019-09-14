@@ -3,6 +3,7 @@ html, body{
     height: 100%;
     background: linear-gradient(to bottom left, #ffcc00 11%, #ff3300 100%);
 }
+/* Sign up form */
 .col-lg-12{
     text-align: center;
 }

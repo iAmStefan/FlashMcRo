@@ -44,6 +44,7 @@
     color: #0189FB;
   }
 
+  /* Image + ip */
   .col-lg-12{
     width: 100%;
   }
@@ -68,6 +69,8 @@
     transform: skewY( 2deg);
     transform-origin: top left;
   }
+
+  /* Social */
   .fa-instagram{
     padding: 10px;
     border: 1px solid black;

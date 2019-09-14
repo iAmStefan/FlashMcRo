@@ -45,6 +45,7 @@ html,body{
     color: #0189FB;
   }
 
+  /* Image + discord shopping */
   .col-lg-12{
     text-align: center;
     width: 100%;
@@ -88,6 +89,8 @@ html,body{
     transform: skewY(2deg);
     transform-origin: top left;
   }
+
+  /* Social */
   .fa-instagram{
     padding: 10px;
     border: 1px solid black;

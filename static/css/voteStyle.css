@@ -44,6 +44,8 @@ html,body{
     border-bottom: 2px solid #FB1401;
     color: #0189FB;
   }
+
+  /* Image + vote link */
   .col-lg-12{
     text-align: center;
   }
@@ -74,6 +76,8 @@ html,body{
   .voting a:hover{
     text-decoration: none;
   }
+
+  /* Social */
   .fa-instagram{
     padding: 10px;
     border: 1px solid black;

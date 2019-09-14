@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://flash-mcro.herokuapp.com/</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/magazin/</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/voteaza/</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/inregistrare/</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/autentificare/</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/canale-voce</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/canale-text</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/canale-muzica</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/sectiuni-noi</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/bug-uri</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/sugestii</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/reclamatii</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/evenimente</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/anunturi</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/builder</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/scripter</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/administrator</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/moderator</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/flyer</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flash-mcro.herokuapp.com/forum/vip</loc>
+  <lastmod>2019-09-14T11:07:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
