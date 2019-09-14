@@ -19,25 +19,25 @@
                         <form method="POST">
                             {% csrf_token %}
                             <div class="register-group">
-                                <p>Nume</p>
+                                <p alt="flash-mc-ro first name input" title="flash-mc-ro first name input">Nume</p>
                                 {{ register_form.first_name }}
 
-                                <p>Prenume</p>
+                                <p alt="flash-mc-ro last name input" title="flash-mc-ro last name input">Prenume</p>
                                 {{ register_form.last_name }}
 
-                                <p>Numele din Minecraft</p>
+                                <p alt="flash-mc-ro username input" title="flash-mc-ro username input">Numele din Minecraft</p>
                                 {{ register_form.username }}
 
-                                <p>Adresa de e-mail</p>
+                                <p alt="flash-mc-ro e-mail input" title="flash-mc-ro e-mail input">Adresa de e-mail</p>
                                 {{ register_form.email }}
 
-                                <p>Parola</p>
+                                <p alt="flash-mc-ro password input" title="flash-mc-ro password input">Parola</p>
                                 {{ register_form.password1 }}
 
-                                <p>Confirmarea parolei</p>
+                                <p alt="flash-mc-ro repeat password input" title="flash-mc-ro repeat password input">Confirmarea parolei</p>
                                 {{ register_form.password2 }}
                             </div>
-                            <button type="submit" class="register">Inregistrare</button>
+                            <button alt="flash-mc-ro register" title="flash-mc-ro register" type="submit" class="register">Inregistrare</button>
                         </form>
                     </div>
                 </div>

@@ -18,14 +18,14 @@
                     <form method="POST">
                         {% csrf_token %}
                         <div class="login-group">
-                            <p>User name</p>
+                            <p alt="flash-mc-ro username input" title="flash-mc-ro username input">User name</p>
                             {{ form.username }}
 
-                            <p>Parola</p>
+                            <p alt="flash-mc-ro password input" title="flash-mc-ro password input">Parola</p>
                             {{ form.password }}
                         </div>
-                        <button type="submit" class="login">Autentificare</button>
-                        <p class="passwordReset"><a href="">Ti-ai uitat parola ?</a></p>
+                        <button alt="flash-mc-ro authenticate" title="flash-mc-ro authenticate" type="submit" class="login">Autentificare</button>
+                        <p alt="flash-mc-ro forgot your password" title="flash-mc-ro forgot your password" class="passwordReset"><a href="">Ti-ai uitat parola ?</a></p>
                     </form>
                 </div>
             </div>

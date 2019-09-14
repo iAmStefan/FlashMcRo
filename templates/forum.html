@@ -21,11 +21,11 @@
           </ul>
           <div class="signup_in">
               {% if user.is_authenticated %}
-              <p class="username">{{ user.username }}</p>
-              <p class="delogare"><a href="{% url 'delogare' %}">Delogare</a></p>
+              <p alt="flash-mc-ro username" title="flash-mc-ro username" class="username">{{ user.username }}</p>
+              <p alt="flash-mc-ro logout" title="flash-mc-ro logout" class="delogare"><a href="{% url 'delogare' %}">Delogare</a></p>
               {% else %}
-              <p class="inregistrare"><a href="{% url 'inregistrare' %}">Inregistrare</a></p>
-              <p class="autentificare"><a href="{% url 'autentificare' %}">Autentificare</a></p>
+              <p alt="flash-mc-ro registration" title="flash-mc-ro registration" class="inregistrare"><a href="{% url 'inregistrare' %}">Inregistrare</a></p>
+              <p alt="flash-mc-ro authentication" title="flash-mc-ro authentication" class="autentificare"><a href="{% url 'autentificare' %}">Autentificare</a></p>
               {% endif %}
           </div>
         </div>
@@ -38,15 +38,15 @@
                 <div class="col-lg-10">
                     <div class="topics">
                         <div class="title">Topicuri</div>
-                        <button class="newTopic">Creaza un nou topic</button>
+                        <button alt="flash-mc-ro create new topics" title="flash-mc-ro create new topics" class="newTopic">Creaza un nou topic</button>
                     </div>
                     <div class="topicList">
                         <div class="discordTopic">
                             <div class="title">Discord</div>
                             <div class="subTopics">
-                                <p class="channelVoiceTopic"><a href="{% url 'subTopic' 'canale-voce' %}">Canale de voce</a></p>
-                                <p class="channelTextTopic"><a href="{% url 'subTopic' 'canale-text' %}">Canale de text</a></p>
-                                <p class="channelMusicTopic"><a href="{% url 'subTopic' 'canale-muzica' %}">Canale de muzica</a></p>
+                                <p alt="flash-mc-ro voice channel topic" title="flash-mc-ro voice channel topic" class="channelVoiceTopic"><a href="{% url 'subTopic' 'canale-voce' %}">Canale de voce</a></p>
+                                <p alt="flash-mc-ro text channel topic" title="flash-mc-ro text channel topic" class="channelTextTopic"><a href="{% url 'subTopic' 'canale-text' %}">Canale de text</a></p>
+                                <p alt="flash-mc-ro music channel topic" title="flash-mc-ro music channel topic" class="channelMusicTopic"><a href="{% url 'subTopic' 'canale-muzica' %}">Canale de muzica</a></p>
                             </div>
                         </div>
                         <div class="serverTopic">
@@ -56,16 +56,16 @@
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="first">
-                                                <p class="sectionTopic"><a href="{% url 'subTopic' 'sectiuni-noi' %}">Sectiuni noi</a></p>
-                                                <p class="bugTopic"><a href="{% url 'subTopic' 'bug-uri' %}">Bug-uri</a></p>
-                                                <p class="sugestionTopic"><a href="{% url 'subTopic' 'sugestii' %}">Sugestiii</a></p>
+                                                <p alt="flash-mc-ro new sections topic" title="flash-mc-ro new sections topic" class="sectionTopic"><a href="{% url 'subTopic' 'sectiuni-noi' %}">Sectiuni noi</a></p>
+                                                <p alt="flash-mc-ro bugs topic" title="flash-mc-ro bugs topic" class="bugTopic"><a href="{% url 'subTopic' 'bug-uri' %}">Bug-uri</a></p>
+                                                <p alt="flash-mc-ro suggestions topic" title="flash-mc-ro suggestions topic" class="sugestionTopic"><a href="{% url 'subTopic' 'sugestii' %}">Sugestiii</a></p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="second">
-                                                <p class="reclamationTopic"><a href="{% url 'subTopic' 'reclamatii' %}">Reclamatii</a></p>
-                                                <p class="eventTopic"><a href="{% url 'subTopic' 'evenimente' %}">Evenimente</a></p>
-                                                <p class="announcementTopic"><a href="{% url 'subTopic' 'anunturi' %}">Anunturi</a></p>
+                                                <p alt="flash-mc-ro warnings topic" title="flash-mc-ro warnings topic" class="reclamationTopic"><a href="{% url 'subTopic' 'reclamatii' %}">Reclamatii</a></p>
+                                                <p alt="flash-mc-ro events topic" title="flash-mc-ro events topic" class="eventTopic"><a href="{% url 'subTopic' 'evenimente' %}">Evenimente</a></p>
+                                                <p alt="flash-mc-ro announcements topic" title="flash-mc-ro announcements topic" class="announcementTopic"><a href="{% url 'subTopic' 'anunturi' %}">Anunturi</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -79,17 +79,17 @@
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="first">
-                                                <a href="{% url 'subTopic' 'builder' %}"><p class="builderTopic">{{ grade.builder }}</p></a>
-                                                <a href="{% url 'subTopic' 'scripter' %}"><p class="scripterT1opic">{{ grade.scripter }}</p></a>
-                                                <a href="{% url 'subTopic' 'administrator' %}"><p class="adminTopic">{{ grade.admin }}</p></a>
+                                                <p alt="flash-mc-ro builder topic" title="flash-mc-ro builder topic" class="builderTopic"><a href="{% url 'subTopic' 'builder' %}">{{ grade.builder }}</a></p>
+                                                <p alt="flash-mc-ro scripter topic" title="flash-mc-ro scripter topic" class="scripterT1opic"><a href="{% url 'subTopic' 'scripter' %}">{{ grade.scripter }}</a></p>
+                                                <p alt="flash-mc-ro admin topic" title="flash-mc-ro admin topic" class="adminTopic"><a href="{% url 'subTopic' 'administrator' %}">{{ grade.admin }}</a></p>
                                             </div>
 
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="second">
-                                                <a href="{% url 'subTopic' 'moderator' %}"><p class="modTopic">{{ grade.mod }}</p></a>
-                                                <a href="{% url 'subTopic' 'flyer' %}"><p class="flyerTopic">{{ grade.flyer }}</p></a>
-                                                <a href="{% url 'subTopic' 'vip' %}"><p class="vipTopic">{{ grade.vip }}</p></a>
+                                                <p alt="flash-mc-ro moderator topic" title="flash-mc-ro moderator topic"class="modTopic"><a href="{% url 'subTopic' 'moderator' %}">{{ grade.mod }}</a></p>
+                                                <p alt="flash-mc-ro flyer topic" title="flash-mc-ro flyer topic" class="flyerTopic"><a href="{% url 'subTopic' 'flyer' %}">{{ grade.flyer }}</a></p>
+                                                <p alt="flash-mc-ro vip topic" title="flash-mc-ro vip topic" class="vipTopic"><a href="{% url 'subTopic' 'vip' %}">{{ grade.vip }}</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="discord">
-                        <iframe src="https://discordapp.com/widget?id=616206076412690433&theme=dark" width="259" height="400" allowtransparency="true" frameborder="0"></iframe>
+                        <iframe src="https://discordapp.com/widget?id=616206076412690433&theme=dark" width="259" height="400" allowtransparency="true" frameborder="0" alt="flash-mc-ro discord" title="flash-mc-ro discord"></iframe>
                     </div>
                 </div>
             </div>
