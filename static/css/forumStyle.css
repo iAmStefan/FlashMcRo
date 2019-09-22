@@ -107,13 +107,21 @@ html,body{
     text-align: center;
   }
   .overlay{
+    display: inline-block;
     text-align: center;
     position: fixed;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.7);
     width: 100%;
     height: 100%;
     z-index: 2;
     display: none;
+  }
+  .overlay .titleSection .title{
+    border-bottom: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
   }
   .list{
     width: 97%;
@@ -135,12 +143,21 @@ html,body{
     margin-left: 500px;
     margin-top: 250px;
     width: 300px;
-    height: 135px;
+    height: 170px;
     background-color: white;
     border: 1px solid black;
     border-radius: 3px;
   }
+  .closeWindow{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    margin-top: 10px;
+  }
   .createSubTopic{
+    display: inline-block;
     font-family: "Roboto", sans-serif;
     border: 1px solid black;
     border-radius: 3px;

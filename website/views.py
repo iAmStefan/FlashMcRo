@@ -29,12 +29,6 @@ def register(request):
     else:
         register_form = RegisterForm()
     return render(request, 'signup.html', {'register_form' : register_form})
-def sendMail(request):
-    send_mail = PasswordResetForm()
-    return render(request, 'send-mail.html', {'mailSending' : send_mail})
-def passwordReset(request):
-    reset = PasswordResetForm()
-    return render(request, 'password-reset.html', {'passwordResetting' : reset})
 def error404(request):
     return render(request, '404.html')
 

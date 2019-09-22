@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54071d49-bc00-4577-93b3-5deb1397c324" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/javascript/topic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/forumStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/forumStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/indexStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/logoutStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/logoutStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/resetStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/sendStyle.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/shopStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/shopStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/signinStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/signinStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/signupStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/signupStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/voteStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/voteStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/javascript/topic.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascript/topic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/password-reset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/send-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,6 +207,11 @@
       <workItem from="1568454365563" duration="3943000" />
       <workItem from="1568459547217" duration="456000" />
       <workItem from="1568478127983" duration="7118000" />
+      <workItem from="1568565615177" duration="22000" />
+      <workItem from="1568990693793" duration="6240000" />
+      <workItem from="1569140346056" duration="4472000" />
+      <workItem from="1569145356498" duration="347000" />
+      <workItem from="1569146022289" duration="54000" />
     </task>
     <servers />
   </component>

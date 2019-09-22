@@ -50,6 +50,9 @@ html,body{
     text-align: center;
     width: 100%;
   }
+  .col-lg-6{
+    text-align: center;
+  }
   .shopStuff{
     background: url("../images/shopImage.jpg");
     background-repeat: no-repeat;
@@ -76,7 +79,7 @@ html,body{
     text-align: center;
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 56px;
+    font-size: 50px;
     margin-top: 10px;
     letter-spacing: 3px;
     text-shadow: 0px 3px #505050;
@@ -89,7 +92,42 @@ html,body{
     transform: skewY(2deg);
     transform-origin: top left;
   }
-
+  .lista .title{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: black;
+  }
+  .lista p{
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+  }
+  .preturi p{
+    color: green;
+  }
+  .grade{
+    display: inline-block;
+  }
+  .preturi{
+    display: inline-block;
+  }
+  .vip{
+    color: dodgerblue;
+  }
+  .helper{
+    color: #66C442;
+  }
+  .mod{
+    color:  #D27F3D;
+  }
+  .admin{
+    color: #E74C4C;
+  }
+  .coOwner{
+    color: #E74C4C;
+  }
+  .owner{
+    color:  #F00D0D;
+  }
   /* Social */
   .fa-instagram{
     padding: 10px;
