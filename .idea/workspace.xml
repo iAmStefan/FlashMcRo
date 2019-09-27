@@ -4,16 +4,13 @@
     <list default="true" id="54071d49-bc00-4577-93b3-5deb1397c324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/forumStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/forumStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/resetStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/sendStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/indexStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/indexStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/shopStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/shopStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/topicStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/topicStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/voteStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/voteStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/javascript/topic.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascript/topic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/password-reset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/send-mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/requestTopic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/requestTopic.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +209,7 @@
       <workItem from="1569140346056" duration="4472000" />
       <workItem from="1569145356498" duration="347000" />
       <workItem from="1569146022289" duration="54000" />
+      <workItem from="1569598142824" duration="5904000" />
     </task>
     <servers />
   </component>

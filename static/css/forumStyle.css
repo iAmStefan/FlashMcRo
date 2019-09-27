@@ -116,7 +116,7 @@ html,body{
     z-index: 2;
     display: none;
   }
-  .overlay .titleSection .title{
+  .overlay .title{
     border-bottom: 1px solid black;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -147,14 +147,6 @@ html,body{
     background-color: white;
     border: 1px solid black;
     border-radius: 3px;
-  }
-  .closeWindow{
-    display: inline-block;
-    font-family: "Roboto", sans-serif;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: dodgerblue;
-    margin-top: 10px;
   }
   .createSubTopic{
     display: inline-block;
@@ -294,3 +286,16 @@ html,body{
     background-color: #BFBFBF;
     text-align: center;
   }
+  /* Scrolll bar */
+  ::-webkit-scrollbar {
+  width: 6px;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
