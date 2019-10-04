@@ -1,7 +1,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: #BFBFBF;
+    background: linear-gradient(to bottom, #0033cc 0%, #00ff00 100%);
   }
 
   /*Meniu */
@@ -110,23 +110,20 @@ html,body{
   .preturi{
     display: inline-block;
   }
-  .vip{
+  .elite{
     color: dodgerblue;
   }
-  .helper{
+  .mvp{
     color: #66C442;
   }
-  .mod{
+  .vip{
     color:  #D27F3D;
   }
-  .admin{
+  .hero{
     color: #E74C4C;
   }
-  .coOwner{
+  .legend{
     color: #E74C4C;
-  }
-  .owner{
-    color:  #F00D0D;
   }
   /* Social */
   .fa-instagram{
