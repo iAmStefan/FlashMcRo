@@ -1,7 +1,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, #0033cc 0%, #00ff00 100%);
+    background-color: #BFBFBF;
   }
 
   /*Meniu */
@@ -111,19 +111,25 @@ html,body{
     display: inline-block;
   }
   .elite{
-    color: dodgerblue;
+    color: #5DEA07;
   }
   .mvp{
-    color: #66C442;
+    color: #FFEC00;
+  }
+  .mvpPlus{
+    color: #D27F3D;
   }
   .vip{
-    color:  #D27F3D;
+    color: #00D1FF;
+  }
+  .vipPlus{
+    color: #008FFF
   }
   .hero{
-    color: #E74C4C;
+    color: #05BE02;
   }
   .legend{
-    color: #E74C4C;
+    color: #05BE02;
   }
   /* Social */
   .fa-instagram{
