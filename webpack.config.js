@@ -35,6 +35,11 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]'
+        },
+        {
+            devServer: {
+              proxy: 'https://flash-mcro.herokuapp.com/'
+            }
         }
       }
     ]
