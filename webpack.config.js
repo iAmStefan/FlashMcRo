@@ -36,10 +36,8 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         },
-        {
-            devServer: {
-              proxy: 'https://flash-mcro.herokuapp.com/'
-            }
+        devServer: {
+          proxy: 'https://flash-mcro.herokuapp.com/'
         }
       }
     ]
