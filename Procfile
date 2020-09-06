@@ -1,1 +1,1 @@
-web: gunicorn FlashMcRo.wsgi
+web: node index.js
