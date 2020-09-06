@@ -49,7 +49,11 @@ module.exports = {
     historyApiFallback: true,
     noInfo: true,
     overlay: true,
-    proxy: 'https://flash-mcro.herokuapp.com/'
+    proxy: {
+        target: 'https://flash-mcro.herokuapp.com/',
+        ws: true,
+        changeOrigin: true
+    }
   },
   performance: {
     hints: false
