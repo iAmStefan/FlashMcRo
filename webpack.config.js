@@ -35,9 +35,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]'
-        },
-        devServer: {
-          proxy: 'https://flash-mcro.herokuapp.com/'
+        }
         }
       }
     ]
@@ -51,7 +49,8 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
+    proxy: 'https://flash-mcro.herokuapp.com/'
   },
   performance: {
     hints: false
