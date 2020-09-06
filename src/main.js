@@ -1,4 +1,4 @@
-import Vue from 'vue' 
+import Vue from 'vue'
 import App from './App.vue'
 import Index from './components/index.vue'
 import VueRouter from 'vue-router'
@@ -24,3 +24,8 @@ new Vue({
   render: h => h(App),
   router: router
 })
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
