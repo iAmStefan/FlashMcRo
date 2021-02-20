@@ -1,0 +1,142 @@
+.menu {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    border-bottom: 1px solid black;
+  }
+  .menu ul{
+    margin-bottom: 0;
+  }
+  .menu ul li{
+    list-style-type: none;
+    margin-top: 12px;
+  }
+  .menu ul li a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .menu li.active a {
+    color: #646166;
+  }
+  .navigation-active{
+    border-bottom: 2px solid #FB1401;
+  }
+  
+  .navigation:hover{
+    border-bottom: 2px solid #FB1401;
+  }
+  .logo img{
+    float:left;
+    margin: 3px;
+    height: 45px;
+    width: 45px;
+  }
+  .showHide{
+    margin: 10px;
+    float: right;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  .line1{
+    margin: 0 auto;
+    border-radius: 3px;
+    width: 20px;
+    height: 4px;
+    background-color: #CCC6CE;
+    margin-top: 3px;
+  }
+  .line2{
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 20px;
+    height: 4px;
+    background-color: #CCC6CE;
+  }
+  .line3{
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 20px;
+    height: 4px;
+    background-color: #CCC6CE;
+  }
+
+  @media (max-width: 576px) {
+    .menu ul{
+      padding: 0;
+      margin: 0 auto;
+    }
+    .menu{
+      text-align: center;
+    }
+    .menu ul li:last-child{
+      padding-bottom: 7px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .menu ul li{
+      display: inline-block;
+      margin-left: 50px;
+    }
+    .menu ul li:last-child{
+      margin-right: 25px;
+    }
+    .menu ul{
+      float: right;
+    }
+  }
+
+  @media (min-width: 768px)
+  {
+    .menu ul li{
+      display: inline-block;
+      margin-left: 50px;
+    }
+    .menu ul li:last-child{
+      margin-right: 25px;
+    }
+    .menu ul{
+      float: right;
+    }
+  }
+
+  @media (min-width: 992px)
+  {
+    .menu ul li{
+      display: inline-block;
+      margin-left: 50px;
+    }
+    .menu ul li:last-child{
+      margin-right: 25px;
+    }
+    .menu ul{
+      float: right;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .menu ul li{
+      display: inline-block;
+      margin-left: 50px;
+    }
+    .menu ul li:last-child{
+      margin-right: 25px;
+    }
+    .menu ul{
+      float: right;
+    }
+  }
+

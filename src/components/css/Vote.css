@@ -1,0 +1,25 @@
+.voteImage{
+    width: 100%;
+    height: 100%;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+  }
+.nop-padding{
+    padding: 0;
+} 
+.voting{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 110px;
+    margin-top: -680px;
+    letter-spacing: 3px;
+    text-shadow: 0px 3px #505050;
+    transform: skewY(3deg);
+    transform-origin: top left;
+}
+.voting a{
+    color: #F82222;
+}
+.voting a:hover{
+    text-decoration: none;
+}

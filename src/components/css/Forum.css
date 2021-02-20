@@ -1,0 +1,175 @@
+.overlay{
+  position: fixed;
+  width: 100%;
+  padding-top: 12%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 2;
+}
+.overlay .title{
+  border-bottom: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+}
+#list{
+  margin-top: 0;
+  width: 97%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#topicTitle{
+  width: 97%;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#error {
+  float: left;
+  margin-left: 5px;
+}
+.subtopicCreation .title{
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+}
+.subtopicCreation p{
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  float: left;
+  margin-left: 5px;
+}
+.subtopicCreation{
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 220px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.creation-form{
+  width: 100%;
+  height: 100%;
+}
+.createSubTopic{
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  margin-top: 20px;
+}
+.discord{
+  margin-top: 25px;
+  border: 1px solid black;
+  width: 261px;
+  height: 401px;
+  border-radius: 10px;
+}
+.topics{
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 46px;
+  background-color: white;
+}
+.topics .title{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 8px;
+  float: left;
+  border-bottom: 1px solid black;
+}
+.newTopic{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: dodgerblue;
+  margin: 8px;
+  float: right;
+}
+
+.newSubTopic{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: dodgerblue;
+  margin: 8px;
+  float: right;
+}
+.discordTopic{
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.discordTopic .title{
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+.serverTopic{
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.serverTopic .title{
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+.requestTopic{
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 100%;
+  background-color: white;
+}
+.requestTopic .title{
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.serverTopic .subTopics p:first-child, .requestTopic .subTopics p:first-child{
+  margin-top: 7px;
+}
+.col-lg-6{
+  text-align: center;
+}
+.subTopics p{
+  color: dodgerblue;
+}
+.subTopics a{
+  color: dodgerblue;
+  text-decoration: none;
+}
+.discordTopic .subTopics{
+    margin-top: 10px;
+}
+.createTopic-form{
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.title .closeWindow{
+  cursor: grab;
+  float: right;
+  margin-right: 5px;
+}
