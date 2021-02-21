@@ -26,9 +26,9 @@ class Navbar extends React.Component {
               </div>
               {
                 this.state.show? <ul> 
-                    <li alt="flash-mc-ro home section" title="flash-mc-ro home section"><NavLink exact to="/" className="navigation" activeClassName="navigation-active">Acasa</NavLink></li>
+                    <li alt="flash-mc-ro home section" title="flash-mc-ro home section"><NavLink exact to="/" className="navigation" activeClassName="navigation-active">Acasă</NavLink></li>
                     <li alt="flash-mc-ro forum section" title="flash-mc-ro forum section"><NavLink exact to="/forum" className="navigation" activeClassName="navigation-active">Forum</NavLink></li>
-                    <li alt="flash-mc-ro vote section" title="flash-mc-ro vote section"><NavLink exact to="/vot" className="navigation" activeClassName="navigation-active">Voteaza</NavLink></li>
+                    <li alt="flash-mc-ro vote section" title="flash-mc-ro vote section"><NavLink exact to="/vot" className="navigation" activeClassName="navigation-active">Votează</NavLink></li>
                   </ul> : null }
             </div>
           </div>

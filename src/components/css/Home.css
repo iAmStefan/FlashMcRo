@@ -1,7 +1,7 @@
 body, html{
     height: 100%;
-    width: 100%;
-    background-color: lightgray;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(132,0,255,1) 0%, rgba(7,94,155,1) 0%, rgba(153,7,7,1) 0%, rgba(0,202,255,1) 0%, rgba(139,68,245,1) 0%, rgba(81,8,85,1) 100%); 
 }
 .no-padding{
     padding: 0;
@@ -84,89 +84,132 @@ body, html{
   .preturi{
     width: 100%;
   }
-  .elite{
-    color: #05BE02;
+  .grade p{
+    color: #fecd1a;
   }
-  .mvp{
-    color: #FFEC00;
-  }
-  .mvpPlus{
-    color: #D27F3D;
-  }
-  .vip{
-    color: #00D1FF;
-  }
-  .vipPlus{
-    color: #008FFF
-  }
-  .hero{
-    color: #049502;
-  }
-  .legend{
-    color: #049502;
+  .discordID{
+    color: #fecd1a;
   }
 
   @media (max-width: 576px) {
     .ip{
-        font-size: 25px;
-        text-shadow: 0px 3px #505050;
-        margin-top: -120px;
+      font-size: 25px;
+      text-shadow: 0px 3px #505050;
+      margin-top: -120px;
     }
     .announce .title{
-        font-size: 30px;
-        margin-top: 60px;
-        margin-bottom: 50px;
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 50px;
     }
     .announce p{
-        font-size: 30px;
-        margin-top: 120px;
+      font-size: 30px;
+      margin-top: 120px;
+    }
+    .divider{
+      width: 290px;
+    }
+    .paymentMethods img{
+      width: 290px;
+      height: 150px;
     }
   }
 
   @media (min-width: 576px) {
-    .menu ul li{
-      display: inline-block;
-      margin-left: 50px;
+    .ip{
+      font-size: 40px;
+      text-shadow: 0px 3px #505050;
+      margin-top: -230px;
     }
-    .menu ul li:last-child{
-      margin-right: 25px;
+    .announce .title{
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 50px;
     }
-    .menu ul{
-      float: right;
+    .announce p{
+      font-size: 30px;
+      margin-top: 170px;
+    }
+    .divider{
+      width: 290px;
+    }
+    .paymentMethods img{
+      width: 290px;
+      height: 150px;
     }
   }
 
   @media (min-width: 768px)
   {
-    .menu ul li{
-      display: inline-block;
-      margin-left: 50px;
+    .ip{
+      font-size: 50px;
+      text-shadow: 0px 3px #505050;
+      margin-top: -290px;
     }
-    .menu ul li:last-child{
-      margin-right: 25px;
+    .announce .title{
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 50px;
     }
-    .menu ul{
-      float: right;
+    .announce p{
+      font-size: 30px;
+      margin-top: 260px;
+    }
+    .divider{
+      width: 290px;
+    }
+    .paymentMethods img{
+      width: 290px;
+      height: 150px;
     }
   }
 
   @media (min-width: 992px)
   {
-    .menu ul li{
-      display: inline-block;
-      margin-left: 50px;
+    .ip{
+      font-size: 75px;
+      text-shadow: 0px 3px #505050;
+      margin-top: -450px;
     }
-    .menu ul li:last-child{
-      margin-right: 25px;
+    .announce .title{
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 50px;
     }
-    .menu ul{
-      float: right;
+    .announce p{
+      font-size: 30px;
+      margin-top: 370px;
+    }
+    .divider{
+      width: 290px;
+    }
+    .paymentMethods img{
+      width: 290px;
+      height: 150px;
     }
   }
 
   @media (min-width: 1400px) {
+    .ip{
+      font-size: 115px;
+      text-shadow: 0px 3px #505050;
+      margin-top: -660px;
+    }
     .announce .title{
-        margin-bottom: 50px;
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
+    .announce p{
+      font-size: 40px;
+      margin-top: 500px;
+    }
+    .divider{
+      width: 290px;
+    }
+    .paymentMethods img{
+      width: 290px;
+      height: 150px;
     }
   }
 

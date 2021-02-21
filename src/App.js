@@ -4,6 +4,7 @@ import { Route, Switch, useLocation } from 'react-router-dom';
 import Home from './components/Home';
 import Forum from './components/Forum';
 import Vote from './components/Vote';
+import Error from './components/Error404'
 import FullHeight from "react-full-height";
 import { AnimatePresence } from "framer-motion";
 

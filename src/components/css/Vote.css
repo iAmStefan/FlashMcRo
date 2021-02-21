@@ -23,3 +23,45 @@
 .voting a:hover{
     text-decoration: none;
 }
+
+@media (max-width: 576px) {
+    .voting{
+        margin-top: -140px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 576px) {
+    .voting{
+        margin-top: -260px;
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .voting{
+        margin-top: -320px;
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .voting{
+        margin-top: -320px;
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .voting{
+        margin-top: -470px;
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .voting{
+        margin-top: -670px;
+        font-size: 105px;
+    }
+}

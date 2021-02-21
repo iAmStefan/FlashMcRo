@@ -11,6 +11,9 @@
   .menu ul{
     margin-bottom: 0;
   }
+  .no-padding{
+    padding: 0;
+  }
   .menu ul li{
     list-style-type: none;
     margin-top: 12px;
@@ -27,11 +30,11 @@
     color: #646166;
   }
   .navigation-active{
-    border-bottom: 2px solid #FB1401;
+    border-bottom: 2px solid #fecd1a;
   }
   
   .navigation:hover{
-    border-bottom: 2px solid #FB1401;
+    border-bottom: 2px solid #fecd1a;
   }
   .logo img{
     float:left;

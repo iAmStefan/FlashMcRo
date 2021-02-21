@@ -93,7 +93,7 @@
 }
 .newTopic{
   border: 1px solid black;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: dodgerblue;
   margin: 8px;
   float: right;
@@ -101,7 +101,7 @@
 
 .newSubTopic{
   border: 1px solid black;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: dodgerblue;
   margin: 8px;
   float: right;
@@ -160,9 +160,6 @@
   color: dodgerblue;
   text-decoration: none;
 }
-.discordTopic .subTopics{
-    margin-top: 10px;
-}
 .createTopic-form{
   width: 100%;
   float: left;
@@ -172,4 +169,8 @@
   cursor: grab;
   float: right;
   margin-right: 5px;
+}
+.discord{
+  margin: 0 auto;
+  margin-top: 25px;
 }
