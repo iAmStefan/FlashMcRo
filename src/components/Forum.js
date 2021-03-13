@@ -64,7 +64,7 @@ class Forum extends React.Component {
               <title>FlashMc | Forum</title>
           </Helmet>
           <div className="row">
-            <div className="col-xs-12 col-lg-10">
+            <div className="col-xs-12 col-sm-12 col-md- 12 col-lg-9 col-xl-9 col-xxl-9">
               { this.state.visible? <div className="overlay">
                 <div className="subtopicCreation">
                   <div className="creation-form">
@@ -81,9 +81,9 @@ class Forum extends React.Component {
                 </div>
               </div> : null }
 
-              <div className="col-xs-12 col-lg-12">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <div className="topics">
-                  <div className="title text-center">Topicuri / Subtopicuri</div>
+                  <div className="title text-center" alt="flash-mc topic subtopic" title="flash-mc topic subtopic">Topicuri / Subtopicuri</div>
                   <button onClick={() => this.showHide()} className="newSubTopic">Creaza un nou subtopic</button>
                   <button alt="flash-mc-ro create new topics" title="flash-mc-ro create new topics" className="newTopic">Creaza un nou topic</button>
                 </div>
@@ -91,29 +91,29 @@ class Forum extends React.Component {
 
               <div className="col-xs-12 col-lg-12">
                 <div className="discordTopic">
-                  <div className="title">Discord</div>
+                  <div className="title" alt="flash-mc discord topic" title="flash-mc discord topic">Discord</div>
                   <div className="subTopics"></div>
                 </div>
               </div>
 
               <div className="col-xs-12 col-lg-12">
                 <div className="serverTopic">
-                  <div className="title">Propuneri server</div>
+                  <div className="title" alt="flash-mc server proposals topic" title="flash-mc server proposal topic">Propuneri server</div>
                     <div className="subTopics"></div>
                 </div>
               </div>
 
               <div className="col-xs-12 col-lg-12">
                 <div className="requestTopic">
-                  <div className="title">Cereri pentru grade</div>
+                  <div className="title" alt="flash-mc rank request topic" title="flash-mc rank request topic">Cereri pentru grade</div>
                     <div className="subTopics"></div>
                 </div>
               </div>
             </div>
 
-            <div className="col-xs-12 col-lg-2">
+            <div className="col-xs-12 col-lg-3">
               <div className="discord text-center">
-                <iframe src="https://discord.com/widget?id=616206076412690433&theme=dark" width="259" height="399" allowtransparency="true" frameBorder="0" alt="flash-mc-ro discord" title="flash-mc-ro discord" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe src="https://discord.com/widget?id=616206076412690433&theme=dark" height="399" allowtransparency="true" alt="flash-mc discord connect" title="flash-mc discord connect" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
               </div>
             </div>
           </div>

@@ -30,12 +30,25 @@ class Vote extends React.Component {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 no-padding">
               <div className="voteImage">
                 <img src={voteImage} alt="" className="img-fluid"/>
-                <p alt="flash-mc-ro vote link" title="flash-mc-ro vote link" className="voting text-center">Nu uita să votezi <a href="https://minecraft-mp.com/server/232896/vote/"><span>aici</span></a> și vei primi un bonus!</p>
+                <p alt="flash-mc vote link" title="flash-mc vote link" className="voting text-center">Nu uita să votezi <a href="https://minecraft-mp.com/server/232896/vote/"><span>aici</span></a> și vei primi un bonus!</p>
               </div>
+            </div>
+
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-23">
+              <p className="prizeTitle text-center" alt="flash-mc prize announce" title="flash-mc prize announce">După ce ați votat veți primi</p>
+            </div> 
+            <div className="prize col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" alt="flash-mc vote prize" title="flash-mc vote prize">
+              <p>1x Key Vote</p>
+              <p>15.000$</p>
+            </div>
+
+            <div className="prize col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" alt="flash-mc vote prize" title="flash-mc vote prize">
+              <p>15x Diamond</p>
+              <p>15x Emerald</p>
             </div>
           </div>
           <Footer/>
-        </motion.div>
+        </motion.div>   
       )
     }
   }

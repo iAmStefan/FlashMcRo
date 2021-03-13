@@ -69,13 +69,6 @@
   background-color: dodgerblue;
   margin-top: 20px;
 }
-.discord{
-  margin-top: 25px;
-  border: 1px solid black;
-  width: 261px;
-  height: 401px;
-  border-radius: 10px;
-}
 .topics{
   margin-top: 25px;
   border: 1px solid black;
@@ -97,6 +90,10 @@
   background-color: dodgerblue;
   margin: 8px;
   float: right;
+}
+iframe{
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 .newSubTopic{
@@ -173,4 +170,116 @@
 .discord{
   margin: 0 auto;
   margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+  .topics{
+    margin-top: 25px;
+    height: 130px;
+    text-align: center;
+  }
+  .topics .title{
+    float: none;
+  }
+  .newSubTopic{
+    text-align: center;
+    float: none;
+    margin-top: 5px;
+  }
+  .newTopic{
+    margin-top: 5px;
+    float: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .topics{
+    margin-top: 25px;
+    height: 130px;
+    text-align: center;
+  }
+  .topics .title{
+    float: none;
+  }
+  .newSubTopic{
+    text-align: center;
+    float: none;
+    margin-top: 5px;
+  }
+  .newTopic{
+    margin-top: 5px;
+    float: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .topics{
+    margin-top: 25px;
+    height: 47px;
+  }
+  .topics .title{
+    float: left;
+  }
+  .newSubTopic{
+    margin: 8px;
+    float: right;
+  }
+  .newTopic{
+    margin: 8px;
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .topics{
+    margin-top: 25px;
+    height: 47px;
+  }
+  .topics .title{
+    float: left;
+  }
+  .newSubTopic{
+    margin: 8px;
+    float: right;
+  }
+  .newTopic{
+    margin: 8px;
+    float: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topics{
+    margin-top: 25px;
+    height: 47px;
+  }
+  .topics .title{
+    float: left;
+  }
+  .newSubTopic{
+    margin: 8px;
+    float: right;
+  }
+  .newTopic{
+    margin: 8px;
+    float: right;
+  }
+}
+
+@media (min-width: 1400px) {
+  .topics{
+    margin-top: 25px;
+    height: 47px;
+  }
+  .topics .title{
+    float: left;
+  }
+  .newSubTopic{
+    margin: 8px;
+    float: right;
+  }
+  .newTopic{
+    margin: 8px;
+    float: right;
+  }
 }
